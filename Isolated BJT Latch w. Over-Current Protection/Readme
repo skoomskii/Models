@@ -1,1 +1,14 @@
 Galvanically isolated small-signal triggered BJT latch, with threshold adjustable constant current mode (CCM) over-current protection, and quad-state indicating LEDs.
+...
+-----------------------------------------
+|  LED1(Green)  |  LED2(Red)  |  State  |
+-----------------------------------------
+|        0      |      0      |    OFF  |
+-----------------------------------------
+|        0      |      1      |   RESET |
+-----------------------------------------
+|        1      |      0      |    SET  |
+-----------------------------------------
+|        1      |      1      |    CCM  |
+-----------------------------------------
+...
